@@ -1,0 +1,136 @@
+
+body {
+ margin: 0;
+ padding: 0;
+}
+ 
+.anime {
+ position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #A13032;
+  overflow: hidden;
+  z-index: -2;
+}
+ 
+.anime svg {
+ display: block;
+ position: absolute;
+ text-align: center;
+ z-index: 3;
+ 
+}
+
+ 
+@keyframes japan {
+   0% {
+   stroke-dashoffset: 2572;
+   fill: transparent;
+   opacity: 1;
+  }
+   40% {
+   stroke-dashoffset: 0;
+   fill: transparent;
+   opacity: 1;
+  }
+   50% {
+   stroke-dashoffset: 0;
+   fill: #FFFFFF;
+   opacity: 1;
+  }
+   80% {
+   stroke-dashoffset: 0;
+   fill: #FFFFFF;
+   opacity: 1;
+  }
+   95% {
+   stroke-dashoffset: 0;
+   fill: #FFFFFF;
+   opacity: 0;
+  }
+   100% {
+   stroke-dashoffset: 0;
+   fill: #FFFFFF;
+   opacity: 0;
+  }
+}
+
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+.item01,.item02,.item03,.item04{
+  fill: transparent;
+  stroke: #FFFFFF;
+  stroke-dasharray: 2572;
+  stroke-dashoffset: 0;
+  stroke-width: 1;
+  opacity: 1;
+}
+
+.item01{
+  animation: japan 8s ease-in 0.4s infinite;
+}
+
+.item02{
+  animation: japan 8s ease-in 0.6s infinite;
+}
+
+.item03{
+  animation: japan 8s ease-in 0.8s infinite;
+}
+
+.item04{
+  animation: japan 8s ease-in 1s infinite;
+}
+
+.item05{
+  animation: japan 8s ease-in 1.2s infinite;
+}
+
+
+#background{
+	 width: 100%;
+     height: 150px;
+     overflow: hidden;
+        }
+
+
+#background:after{
+	content:"";
+    display: block;
+    width: 90%;
+    border-left:1px #FFF solid;
+	animation:scroll 5s ease 0s infinite normal;
+	border-right:1px #FFF solid;
+	margin: 0 auto 0;
+        }
+
+ 
+
+@keyframes scroll{
+
+0%{
+	height: 0;
+            }
+
+50%{
+	height: 150px;
+	margin-top: 0;
+	}
+
+100%{
+    margin-top: 150px;
+	height: 150px;
+	}
+}

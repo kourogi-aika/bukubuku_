@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.anime {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100%;
+ margin: 0 auto;
+ overflow: hidden;
+ background-image: url("../images/hougan.png");
+ background-size: contain;
+ z-index: -2;
+}
+ 
+.anime svg {
+ display: block;
+ position: absolute;
+ text-align: center;
+ z-index: 3;
+ overflow: hidden;
+ transform: scale(1.3,1.3);
+}
+
+.st0{
+  stroke:#262626;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 0;
+  stroke-width: 0.2;
+  -webkit-animation: hello 2s ease-in 0s;
+  animation: hello 2s ease-in 0s;
+}
+  @-webkit-keyframes hello {
+      0% {
+        stroke-dashoffset: 2000;
+        fill:transparent;
+      }
+      40% {
+        stroke-dashoffset: 2000;
+        fill:transparent;
+      }
+      50% {
+        fill:transparent;
+      }
+      100% {
+        stroke-dashoffset: 0;
+        fill:#262626;
+      }
+    }
+
+.st1{
+  stroke:#FFFFFF;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 0;
+  stroke-width: 1;
+  -webkit-animation: hello1 2s ease-in 0s;
+  animation: hello1 2s ease-in 0s;
+}
+  @-webkit-keyframes hello1 {
+      0% {
+        stroke-dashoffset: 2000;
+        fill:transparent;
+      }
+      40% {
+        stroke-dashoffset: 2000;
+        fill:transparent;
+      }
+      50% {
+        fill:transparent;
+      }
+      100% {
+        stroke-dashoffset: 0;
+        fill:#FFFFFF;
+      }
+    }

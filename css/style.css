@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0 auto;
+	
+}
+
+body,html {
+ width: 100%;
+ height: 100%;
+}
+ 
+.anime {
+ width: 100%;
+ height: 100%;
+ background-color: #FFFFFF;
+ position: relative;
+}
+ 
+.anime img {
+ width: 100%;
+ height: auto;
+ display: block;
+ position: absolute;
+}
+
+
+body{
+	width: 100%;
+	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+	font-weight: lighter;
+	color: #4C4948;
+	}
+
+#container{
+	
+	width: 80%;
+	text-align: center;
+	margin-top: 3rem;
+	border: solid #4F4F4F ;
+	border-radius: 5px;
+	border-width: 2px;
+	background-color: #FFFFFF;
+	position: relative;
+	z-index: 3;
+
+}
+
+a{
+	text-decoration: none;
+	color: #666666;
+
+}
+
+a:hover{
+	opacity: 0.5;
+}
+
+
+@media screen and (min-width: 767px) {
+
+header{
+	 
+	width: 100%;
+	height: auto;
+	padding-top: 2.5rem;
+	padding-bottom: 1rem;
+	position: relative;
+}
+	
+img {
+	width:70%;
+	max-width: 100%;
+	height: auto;
+}
+	
+#title{
+		width: 30%;
+	}
+
+#nav-drawer {
+  width: 100%;
+  position: absolute;
+}
+
+.navButton {
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+}
+
+.navButton a {
+  color: #666666;
+  font-size: 2rem;
+
+}
+
+nav {
+  position: relative;
+  width: 100%;
+}
+
+.menu {
+  position: absolute;
+  width: 4.6rem;
+  top:3rem;
+  right: 0;
+  list-style: none;
+}
+	
+.menu li{
+  width: 100%;
+ 
+}
+
+.menu a {
+  display: block;
+  padding-bottom: 1rem;
+  text-align: left;
+  color: #666666;
+  font-size: 1rem;
+}
+
+.menu a:hover {
+  opacity: 0.5;
+}
+
+
+
+#mainvisual{
+	
+	width: 80%;
+	position: relative;
+	padding-top: 3.5rem;
+	z-index: 4;
+}
+
+#book{
+	width: 100%;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+
+	}
+	
+#book ul li{
+	width: 30%;
+	display: inline-block;
+	list-style: none;
+	}
+	
+#booklist{
+	width: 100%;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+	}
+	
+#booklist ul li{
+	
+	width: 30%;
+	display: inline-block;
+	list-style: none;
+	padding-bottom: 5rem;
+	padding-right: 5rem;
+	}
+
+	
+.more{
+	    width: 40%;
+		font-size: 0.7rem;
+	    text-align: center;
+
+	}
+
+.more a{
+		 color: #666666;
+	}
+h1{
+	margin-bottom: 3rem;
+		
+}
+
+h2{
+	padding-top: 5rem;
+	padding-bottom: 3.5rem;
+	font-size: 1.3rem;
+}
+
+h4{
+	padding-top: 0.5rem;
+	padding-bottom: 3rem;
+}
+
+p{
+	width: 75%;
+	padding-top: 1rem;
+	padding-bottom: 2.5rem;
+	line-height: 3rem;
+	font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+	font-weight: 100;
+}
+
+#pic{
+		width: 50%;
+		margin-top: 5rem;
+	}
+
+#text{
+	font-size: 1rem;
+	text-align: left;
+	padding-top: 3rem;
+}
+	
+#info{
+	font-size: 1rem;
+	text-align: left;
+}
+
+
+
+footer{
+	padding-top: 15rem;
+	padding-bottom: 3rem;
+}
+  
+}
+
+@media screen and (max-width: 768px) {
+	
+	header{
+	 
+	width: 100%;
+	height: auto;
+	padding-top: 2.5rem;
+	padding-bottom: 1rem;
+	position: relative;
+	
+}
+
+#nav-drawer {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.navButton {
+  height: auto;
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  padding-left: 73%;
+
+}
+
+.navButton a {
+  width: 100%;
+  color: #666666;
+  font-size: 1.3rem;
+
+}
+
+nav {
+  width: 100%;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  width: 3.2rem;
+  top:1.5rem;
+  right: 0;
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding-bottom: 1rem;
+  text-align: left;
+  color: #666666;
+  font-size: 0.8rem;
+}
+
+.menu a:hover {
+  opacity: 0.5;
+}
+	
+
+
+#mainvisual{
+	
+	width: 100%;
+	padding-top: 3rem;
+}
+	
+#book{
+	width: 90%;
+	margin-right: 3.5rem;
+	}
+	
+#book ul li{
+	
+	width: 100%;
+	list-style: none;
+    padding-bottom: 3rem;
+	
+	}
+	
+#booklist{
+	width: 100%;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+	}
+
+#booklist ul li{
+	width: 80%;
+	display: inline-block;
+	list-style: none;
+	padding-bottom: 6rem;
+	padding-right: 2.3rem;
+	}
+	
+	
+
+h1{
+	margin-bottom: 3rem;
+		
+}
+
+h2{
+	font-size: 12pt;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+h4{
+	padding-top: 0.5rem;
+	padding-bottom: 3rem;
+}
+
+p{
+	width: 75%;
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+	line-height: 2rem;
+	font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+	font-weight: 100;
+	font-size: 10pt;
+}
+	
+.more{
+	    width: 40%;
+
+
+	}
+
+.more a{
+		 color: #666666;
+	     font-size: 12px;
+	}
+	
+#pic{
+		
+		margin-top: 2rem;
+	}
+
+
+#text{
+	font-size: 1rem;
+	text-align: left;
+	padding-top: 3rem;
+}
+
+#info{
+	font-size: 1rem;
+	text-align: left;
+}
+	
+img {
+	width:50%;
+	max-width: 100%;
+	height: auto;
+}
+
+footer{
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+}
+	
+	
+}
